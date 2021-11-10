@@ -1,42 +1,105 @@
-<div>Let us now see the first C++ program which every programmer in the world
-    writes when he starts his/her journey.</div>
+<style>
+    body .gist .gist-file {
+      margin-bottom: 0;
+      border: 1px dashed #adb5bd;
+      border-radius: 0;
+    }
+    body .gist .gist-data {
+      border-bottom: none;
+      border-radius: 0;
+      background-color: #f1f3f5;
+    }
+    /* Changes font size of code */
+    .gist .blob-code {
+          font-size: 16px ! important;
+    }
+    /* Changes font size of line numbers */
+    body .gist .highlight td {
+      padding: 5px 15px !important;
+      line-height: 1;
+      font-family: inherit;
+      font-size: 16px;
+    }
+    body .gist .blob-wrapper {
+      border-radius: 0;
+    }
+    
+    body .gist .highlight {
+      background-color: transparent;
+      font-family: 'Droid Sans Mono', monospace;
+      font-size: 14px;
+    }
+    
+    
+    body .gist tr:first-child td {
+      padding-top: 15px !important;
+    }
+    
+    body .gist tr:last-child td {
+      padding-bottom: 15px !important;
+    }
+    
+    body .gist .blob-num {
+      color: #ced4da;
+      font-size: 500px;
+      background-color: #495057;
+      pointer-events: none;
+    }
+    
+    body .gist .gist-meta {
+      display: none;
+    }
+    </style>
 
-<div><br /></div>
-<script src="https://gist.github.com/xpandeyed/68da4e04b3c83f31a4016fcc82cc63de.js"></script>
-<div><br /></div>
-<div>The complete understanding of this program requires understanding of
-    objects, functions, datatypes etc.</div>
-<div>But let us try to get the most we can learn from this
-    program.</div>
-<div><br />Every predefined entity we use in a program has some more code behind
-    it. This background code is put into files, just to make things sorted. So when we use an entity, sometimes
-    we need to mention some of those files at the top of the program. The first two lines are written to mention
-    two files. Do not worry we will learn more about the same lines later.</div>
-<div><br />Ignore the blank lines. They are used to make the code pretty.
-</div>
-<div><br />The next line says<span>&nbsp;<b>int main()</b></span>&nbsp;and is followed
-    by some content in curly braces. The content surrounded by curly braces is a block of code, and this block
-    of code is identified by a name,<span>&nbsp;<b>main</b></span>. Every C++ program must have a block of code with
-    name,&nbsp;<span><b>main</b></span>.</div>
-<div><br /></div>
-<div>This block has some pre-declared rules which must be followed. The rules
-    say that main block of code must return 0 (zero). This 0 indicates the successful execution of the program.
-    Just before the identifier <b>main</b>,<span>&nbsp;<b>int</b>&nbsp;</span>is written.
-    This<span>&nbsp;<b>int</b>&nbsp;</span>is
-    used to indicate that an integer value will be returned from this block of code.
-    The&nbsp;<span><b>()</b></span>&nbsp;after the main are also necessary. They will be discussed
-    later.<br /><br /></div>
-<div>Anything written inside the main block is considered as a set of
-    instructions for the computer by the programmer.</div>
-<div><br />The line<span>&nbsp;<b>cout &lt;&lt; "Hello World!" ;</b>&nbsp;</span>is an
-    instruction for the computer, which is responsible for the output on the screen.</div>
-<div><br />Next lesson is
-    about<span>&nbsp;<b>cout</b>.</span><span><br /></span><span><br /></span></div>
-<div>Next comes the return statement. The main block of code must <b>return 0</b>. It
-    is a rule, and this return statement indicates successful execution of program. Which also means anything
-    written after the return statement will not be executed.</div>
-<div><br />One more thing some of the lines end with semicolon here. Semicolon
-    in C++ is just like full stop in English. It denotes that the line has ended here. Almost all of the lines
-    end with semicolon, only few special lines are exception to this.<br /></div>
-<div><br /></div>
-<div>This article is contributed by <a href="https://www.linkedin.com/in/xpandeyed/">Lal Bihari Pandey</a>.</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>Let us now see the first C++ program which every programmer in the world
+        writes when he starts his/her journey.</div>
+    <div><br /></div>
+    <script src="https://gist.github.com/xpandeyed/68da4e04b3c83f31a4016fcc82cc63de.js"></script>
+    <div><br /></div>
+    <div>The complete understanding of this program requires understanding of
+        objects, functions, datatypes etc.</div>
+    <div>But let us try to get the most we can learn from this
+        program.</div>
+    <div><br />Every predefined entity we use in a program has some more code behind
+        it. This background code is put into files, just to make things sorted. So when we use an entity, sometimes
+        we need to mention some of those files at the top of the program. The first two lines are written to mention
+        two files. Do not worry we will learn more about the same lines later.</div>
+    <div><br />Ignore the blank lines. They are used to make the code pretty.
+    </div>
+    <div><br />The next line says<span>&nbsp;<b>int main()</b></span>&nbsp;and is followed
+        by some content in curly braces. The content surrounded by curly braces is a block of code, and this block
+        of code is identified by a name,<span>&nbsp;<b>main</b></span>. Every C++ program must have a block of code with
+        name,&nbsp;<span><b>main</b></span>.</div>
+    <div><br /></div>
+    <div>This block has some pre-declared rules which must be followed. The rules
+        say that main block of code must return 0 (zero). This 0 indicates the successful execution of the program.
+        Just before the identifier <b>main</b>,<span>&nbsp;<b>int</b>&nbsp;</span>is written.
+        This<span>&nbsp;<b>int</b>&nbsp;</span>is
+        used to indicate that an integer value will be returned from this block of code.
+        The&nbsp;<span><b>()</b></span>&nbsp;after the main are also necessary. They will be discussed
+        later.<br /><br /></div>
+    <div>Anything written inside the main block is considered as a set of
+        instructions for the computer by the programmer.</div>
+    <div><br />The line<span>&nbsp;<b>cout &lt;&lt; "Hello World!" ;</b>&nbsp;</span>is an
+        instruction for the computer, which is responsible for the output on the screen.</div>
+    <div><br />Next lesson is
+        about<span>&nbsp;<b>cout</b>.</span><span><br /></span><span><br /></span></div>
+    <div>Next comes the return statement. The main block of code must <b>return 0</b>. It
+        is a rule, and this return statement indicates successful execution of program. Which also means anything
+        written after the return statement will not be executed.</div>
+    <div><br />One more thing some of the lines end with semicolon here. Semicolon
+        in C++ is just like full stop in English. It denotes that the line has ended here. Almost all of the lines
+        end with semicolon, only few special lines are exception to this.<br /></div>
+    <div><br /></div>
+    <div>This article is contributed by <a href="https://www.linkedin.com/in/xpandeyed/">Lal Bihari Pandey</a>.</div>
+</body>
+</html>
