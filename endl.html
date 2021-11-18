@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #f2f6f7; padding: 10px;">
+    <div class="chapter-content">
+        <div class="chapter-title">
+            endl
+        </div>
+        <div class="text">
+            In the last lesson you learnt how to use cout to print data on screen.
+
+But there is one more thing you will frequently need while printing data on screen. That is changing the lines. endl will help you there.
+
+If you think writing 
+
+cout << "Statement one" ;
+
+cout << "Statement two" ;
+
+will print the two statements in two different lines. It will not. Because you have instructed computer to print two statements but you have not instructed it to change the line. This is where you need endl.
+Wherever you want to insert a new line you need to write :
+
+<< endl
+
+For instance,
+
+cout << "Hello World" << endl ;
+
+will insert a new line after Hello World.
+
+Not only this, if you want to print multiple messages in different lines, you do not need to write cout multiple times. You can write :
+
+cout << "Statement one" << endl << "Statement two" ;
+
+The functionality of cout will remain until a semicolon is encountered. This means you can print any number of messages in multiple lines using only one cout.
+
+One more thing, endl is also an object like cout and we need iostream and standard namespace for endl also. But once you mention those files at the top you do not need to mention those files again and again.
+        </div>
+    </div>
+    <hr>
+    <div class="contributed-by">This article is contributed by <a href="https://www.linkedin.com/in/xpandeyed/">Lal
+            Bihari Pandey</a></div>
+    <hr style="margin-top: 15px;">
+    <div class="contribute">If you wish to improve the article, see how you can <a
+            href="https://xpandeyed.github.io/EdPubCPPWeb/Contribute.html">contribute and help other
+            users.</a><br><br>If you find anything incorrect, please let us know. <a href="">Report
+            incorrectness.</a></div>
+    <hr style="margin-top: 15px;">
+    <div class="brought-by">Brought to you by <a href="https://xpandeyed.github.io/EdPubCPPWeb/">EdPub</a></div>
+</body>
+</html>
