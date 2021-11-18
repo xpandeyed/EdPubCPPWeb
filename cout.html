@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #f2f6f7; padding: 10px;">
+    <div class="chapter-content">
+        <div class="chapter-title">cout</div>
+        <div class="text">
+            Let us now learn how to print output on screen.
+
+To print anything on screen we use cout. Before using cout, we need to care about two files. iostream which is a header file and standard namespace file. Remember we mentioned that everything which is predefined in C++ has some more code behind it. These are the files which have that code regarding cout.
+
+iostream is a header file which contains the class ostream of which cout is an object (classes and objects are topics for later discussion). So this header file must be included in the project before using cout. Everything in C++ has a proper syntax and the syntax to include a header file is :
+
+#include <file_name>
+
+In our case,
+
+#include <iostream>
+
+Standard namespace is just like a register, which contains the names of predefined entities in C++ (like a class teacher has a register to keep record of students). Before using cout we should mention in the program that we are using standard namespace. For that we need to write :
+
+using namespace std ;
+
+In newer version of C++ we do not need to mention namespace at top. We can write std:: before cout at every place we use cout. For instance :
+
+std::cout
+
+Most of the people do not bother writing std::cout at every place. So they use the older convention, i.e. using namespace std ;
+
+cout is always followed by << (two opening angular brackets), these are called stream insertion operator.
+
+The complete syntax of using cout to print output on screen depends on what do we want to print?
+
+If you want to print a multi character message like EdPub lessons are awesome. You need to write the message in double quotes and put it after the stream insertion operator, just like this :
+
+cout << "EdPub lessons are awesome"
+
+Oops!! This gives an error!!
+
+Like almost every new programmer we forgot to put the statement terminator at the end. Let us put that.
+
+cout << "EdPub lessons are awesome" ;
+
+This will work, but only if you put this inside the main block and before the return statement.
+
+If you want to print a single character use single quotes instead of double quotes and for numbers quotes are not used.
+        </div>
+    </div>
+    <hr>
+  <div class="contributed-by">This article is contributed by <a href="https://www.linkedin.com/in/xpandeyed/">Lal Bihari Pandey</a></div>
+  <hr style="margin-top: 15px;">
+  <div class="contribute">If you wish to improve the article, see how you can <a href="https://xpandeyed.github.io/EdPubCPPWeb/Contribute.html">contribute and help other users.</a><br><br>If you find anything incorrect, please let us know. <a href="">Report incorrectness.</a></div>
+  <hr style="margin-top: 15px;">
+  <div class="brought-by" >Brought to you by <a href="https://xpandeyed.github.io/EdPubCPPWeb/">EdPub</a></div>
+</body>
+</html>
