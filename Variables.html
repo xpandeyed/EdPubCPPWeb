@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #f2f6f7; padding: 10px;">
+    <div class="chapter-content">
+        <div class="chapter-title">
+            Variables
+        </div>
+        <div class="text">
+            In programming we often word on data. For that we need to store data. And for that you need to reserve some space in computer's memory. Reserving space is quite easy. All you need to do is follow the given steps.
+
+First you need to tell the computer which type of data you want to store. You do it by writing the keyword for that datatype. How much memory should be reserved for this data is determined by the datatype. We discussed the size of datatype in some previous lesson.
+
+Then you need to give a label to that reserved position so that you can easily access to that data just by mentioning the label. This label is nothing but Identifier for that memory location, same thing we learnt in previous lesson.
+
+And then a semicolon. That would be enough to reserve a portion of memory to store data.
+
+Let us see an example :
+
+int x ;
+
+This statement reserves a portion of memory of size 4 bytes to store integer data and labels that portion as x.
+
+This reserved portion is what we call a Variable.
+
+How to assign data to this variable?
+
+Just write =value after the identifier, either in the same line of declaration or in a different line.
+
+For instance :
+
+int x = 10;
+
+OR
+
+int x ;
+x = 10 ;
+
+Both assign the value 10 to the variable x.
+
+There is slight difference in these two ways.
+
+In the first way as soon as the variable is created the value 10 is assigned to it whereas in second way, until 10 is assigned to the variable, it holds some garbage value.
+
+Printing value of Variable on Screen
+
+To print the value of a variable on screen you need to write :
+
+cout << identifierOfTheVariable ;
+
+For instance :
+
+cout << x ;
+
+It will print the value of x on screen.
+
+Try printing the value of a variable without assigning a value to it.
+
+The above code declares five variables of fundamental datatypes and prints them on screen.
+        </div>
+    </div>
+    <hr>
+    <div class="contributed-by">This article is contributed by <a href="https://www.linkedin.com/in/xpandeyed/">Lal
+            Bihari Pandey</a></div>
+    <hr style="margin-top: 15px;">
+    <div class="contribute">If you wish to improve the article, see how you can <a
+            href="https://xpandeyed.github.io/EdPubCPPWeb/Contribute.html">contribute and help other
+            users.</a><br><br>If you find anything incorrect, please let us know. <a href="">Report
+            incorrectness.</a></div>
+    <hr style="margin-top: 15px;">
+    <div class="brought-by">Brought to you by <a href="https://xpandeyed.github.io/EdPubCPPWeb/">EdPub</a></div>
+    
+</body>
+</html>
