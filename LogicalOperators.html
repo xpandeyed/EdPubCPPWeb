@@ -10,24 +10,39 @@
 <body style="background-color: #f2f6f7; padding: 10px;">
     <div class="chapter-content">
         <div class="chapter-title">
-            do while
+            Logical Operators
         </div>
         <div class="text">
-            In do while loops the loop execution is terminated on the basis of test condition. The main difference between do while loop and while loop is in do while loop the condition is tested at the end of loop body.
+            Logical operators are used to check whether a given set of expressions are true or not, in which each expression must have a value either true or false.
 
-Note: In do while loop the loop body will execute at least once irrespective of test condition.
 
-Syntax :
+Following are logical operators, their names, their syntax and values given in different cases :
 
-initialization expression;
-do
-{
-   // statements
-} while (test_expression);
+&&
+Name : Logical And
+Syntax : expression1 && expression2
+Takes two expressions. Gives true if left and right both the expressions are true else false.
+For example :
+(10>20)&&(20>50) gives false
+(20>10)&&(20<50) gives true
+(20<10)&&(20<50) gives false
 
-The statements must have an update statement aslo.
+||
+Name : Logical Or
+Syntax : expression1 || expression2
+Takes two expressions. Gives true if any of the expressions is true.
+For example :
+(10>20)||(20>50) gives false
+(20>10)||(20<50) gives true
+(20>10)||(20>50) gives true
 
-Notice the semi – colon(“;”) in the end of loop.
+!
+Name : Logical Not
+Syntax : !expression
+Takes only one expression. Comes before the expression. Gives true if the expression is false and vice-versa.
+For example :
+!(10<20) gives false
+!(20<10) gives true
         </div>
     </div>
     <hr>
@@ -40,5 +55,6 @@ Notice the semi – colon(“;”) in the end of loop.
             incorrectness.</a></div>
     <hr style="margin-top: 15px;">
     <div class="brought-by">Brought to you by <a href="https://xpandeyed.github.io/EdPubCPPWeb/">EdPub</a></div>
+
 </body>
 </html>
