@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Increment and Decrement</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #f2f6f7; padding: 10px;">
+    <div class="chapter-content">
+        <div class="chapter-title">
+            Increment and Decrement
+        </div>
+        <div class="text">
+            There are two more arithmetic operators increment(++) and decrement(--) operators. These require basic understanding of assignment operators.
+
+These are used to increment or decrement the value of a variable by one.
+
+The syntax to use these operators is :
+
+++x, --x, x++, x--
+
+For example,
+
+int x = 10 ;
+
+x++;
+
+Now the value of x is 11.
+
+++x will also do the same thing, then why there are two different syntaxes for same thing.
+
+When it comes to assignment with increment these two work different.
+
+If we write,
+
+int x = 10 , y, a=10, b ;
+
+y=++x;
+b=a++;
+
+If we print the values of y and b we will see that y is 11 but b is 10, although we did almost same thing for them. This is because the position of ++ operator.
+
+When placed before the variable, the increment or decrement operator works before the value of variable is used, but when placed after, the value of variable is used first and then incremented or decremented.
+
+In case of y=++x the value of x is incremented first and then assigned to y but in case of b=a++ the value of a is assigned first and then incremented.
+
+Depending on the position the operator have prefix pre and post.
+        </div>
+    </div>
+    <hr>
+  <div class="contributed-by">This article is contributed by <a href="https://www.linkedin.com/in/xpandeyed/">Lal Bihari Pandey</a></div>
+  <hr style="margin-top: 15px;">
+  <div class="contribute">If you wish to improve the article, see how you can <a href="https://xpandeyed.github.io/EdPubCPPWeb/Contribute.html">contribute and help other users.</a><br><br>If you find anything incorrect, please let us know. <a href="https://xpandeyed.github.io/EdPubCPPWeb/ReportIncorrectness.html">Report incorrectness.</a></div>
+  <hr style="margin-top: 15px;">
+  <div class="brought-by" >Brought to you by <a href="https://xpandeyed.github.io/EdPubCPPWeb/">EdPub</a></div>
+    
+</body>
+</html>
