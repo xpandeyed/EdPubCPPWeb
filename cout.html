@@ -14,35 +14,35 @@
         <div class="chapter-title">cout</div>
     <div class="text">
         Let us now learn how to print output on screen.
-
+        <br><br>
         To print anything on screen we use cout. Before using cout, we need to care about two files. iostream which
         is a header file and standard namespace file. Remember we mentioned that everything which is predefined in
         C++ has some more code behind it. These are the files which have that code regarding cout.
-
+        <br><br>
         iostream is a header file which contains the class ostream of which cout is an object (classes and objects
         are topics for later discussion). So this header file must be included in the project before using cout.
         Everything in C++ has a proper syntax and the syntax to include a header file is :
-
+        <br><br>
         #include <file_name>
-
+            <br><br>
             In our case,
-
+            <br><br>
             #include <iostream>
-
+                <br><br>
                 Standard namespace is just like a register, which contains the names of predefined entities in C++
                 (like a class teacher has a register to keep record of students). Before using cout we should
                 mention in the program that we are using standard namespace. For that we need to write :
-
+                <br><br>
                 using namespace std ;
-
+                <br><br>
                 In newer version of C++ we do not need to mention namespace at top. We can write std:: before cout
                 at every place we use cout. For instance :
-
+                <br><br>
                 std::cout
-
+                <br><br>
                 Most of the people do not bother writing std::cout at every place. So they use the older convention,
                 i.e. using namespace std ;
-
+                <br><br>
                 cout is always followed by << (two opening angular brackets), these are called stream insertion
                     operator. The complete syntax of using cout to print output on screen depends on what do we want to
                     print? If you want to print a multi character message like EdPub lessons are awesome. You need to
