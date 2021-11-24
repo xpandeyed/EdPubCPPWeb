@@ -1,0 +1,74 @@
+body .gist .gist-file {
+    margin-bottom: 0;
+    border: 1px dashed #adb5bd;
+    border-radius: 0;
+  }
+  body .gist .gist-data {
+    border-bottom: none;
+    border-radius: 0;
+    background-color: #f1f3f5;
+  }
+  /* Changes font size of code */
+  .gist .blob-code {
+        font-size: 20px ! important;
+  }
+  /* Changes font size of line numbers */
+  body .gist .highlight td {
+    padding: 5px 15px !important;
+    line-height: 1;
+    font-family: inherit;
+    font-size: 20px;
+  }
+  body .gist .blob-wrapper {
+    border-radius: 0;
+  }
+  
+  body .gist .highlight {
+    background-color: transparent;
+    font-family: 'Droid Sans Mono', monospace;
+    font-size: 14px;
+  }
+  body .gist tr:first-child td {
+    padding-top: 15px !important;
+  }
+  
+  body .gist tr:last-child td {
+    padding-bottom: 15px !important;
+  }
+  
+body .gist .blob-num {
+    color: #ced4da;
+    font-size: 500px;
+    background-color: #495057;
+    pointer-events: none;
+}
+  
+body .gist .gist-meta {
+    display: none;
+}
+.chapter-title{
+    font-size: 40px;
+    color: darkblue;
+    font-weight: bold;
+}
+.text{
+    font-size: 20px;
+    color: #24265f;
+    margin-top: 15px;
+}
+.contributed-by{
+    font-size: 20px;
+    color: #24265f;
+    margin-top: 15px;
+}
+.brought-by{
+    font-size: 20px;
+    color: #24265f;
+    margin-top: 15px;
+}
+.contribute{
+    font-size: 20px;
+    color: #24265f;
+    margin-top: 15px;
+}
+
