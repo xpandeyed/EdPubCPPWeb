@@ -71,4 +71,11 @@ body .gist .gist-meta {
     color: #24265f;
     margin-top: 15px;
 }
-
+.h1{
+  text-align: center;
+}
+.logo{
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+}
