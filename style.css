@@ -73,9 +73,40 @@ body .gist .gist-meta {
     color: #24265f;
     margin-top: 15px;
 }
-.cpp-title{
-  font-size: 28px;
-}
-.h1{
+.edpub-title{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5%;
+  text-decoration: none;
+  font-size: 30px;
   text-align: center;
+}
+.app-logo{
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.play-badge{
+  display: block;
+  max-width: 20%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center-heading{
+  text-align: center;
+  font-size: 40px;
+}
+footer{
+  padding: 20px;
+  width: auto;
+  background-color: darkblue;
+}
+
+.footer-text{
+color: white;
+font-size: 24px;
 }
