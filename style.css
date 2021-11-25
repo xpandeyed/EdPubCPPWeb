@@ -19,6 +19,7 @@ body .gist .gist-file {
     font-family: inherit;
     font-size: 20px;
   }
+
   body .gist .blob-wrapper {
     border-radius: 0;
   }
@@ -62,6 +63,7 @@ body .gist .gist-meta {
     margin-top: 15px;
 }
 .brought-by{
+  text-align: center;
     font-size: 20px;
     color: #24265f;
     margin-top: 15px;
@@ -71,11 +73,9 @@ body .gist .gist-meta {
     color: #24265f;
     margin-top: 15px;
 }
+.cpp-title{
+  font-size: 28px;
+}
 .h1{
   text-align: center;
-}
-.logo{
-  display: block;
-  margin: 0 auto;
-  width: 25%;
 }
